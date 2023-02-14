@@ -1,6 +1,7 @@
 # Query-ChatBot
 
 This query chatbot is specifically made to answer Queries regarding IIT Bhilai.
+Its screen recording is available along with nececcary file required to run the application.
 
 Open the folder in the command prompt or terminal (cd foldername) and run the below given commands.
 
