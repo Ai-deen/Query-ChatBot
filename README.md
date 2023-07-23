@@ -1,18 +1,49 @@
-# Query-ChatBot
+# Query ChatBot for IIT Bhilai
 
-This query chatbot is specifically made to answer Queries regarding IIT Bhilai.
-Its screen recording is available along with necessary files required to run the application.
+![Query ChatBot Demo](link-to-screen-recording.gif)
 
-Open the folder in the command prompt or terminal (cd foldername) and run the below given commands.
+This query chatbot is specifically designed to answer queries related to IIT Bhilai. The chatbot is built using machine learning and natural language processing techniques, allowing it to understand and respond to user queries about the institute.
 
-1. To run the chatbot, we have two main files; train.py and query_chatbot.py.
-2. Priorly few dependencies need to be installed through command prompt or terminal - 
-	pip install tensorflow
-	pip install keras
-	pip install numpy
-	pip install nltk
-3. Firstly, we train the model using the following command in the terminal or command prompt:
-	python train.py
-4. If we don’t see any error during training, we have successfully created the model. Then to run the app, run the query_chatbot.py file in the terminal or command prompt.
-	python query_chatbot.py
-The program will open up a GUI window within a few seconds. With the GUI you can easily chat with the bot or ask any queries to the bot.
+## How to Use
+
+### Prerequisites
+
+Make sure you have Python installed on your system. Additionally, install the required dependencies using the following commands in the command prompt or terminal:
+
+```
+pip install tensorflow
+pip install keras
+pip install numpy
+pip install nltk
+```
+
+### Training the Model
+
+1. Open your command prompt or terminal and navigate to the project folder in this repo.
+
+2. Train the model using the following command:
+
+   ```
+   python train.py
+   ```
+
+   If the training completes without any errors, the model has been successfully created.
+
+### Running the ChatBot
+
+1. Once the model is trained, run the chatbot application by executing the `query_chatbot.py` file in the command prompt or terminal:
+
+   ```
+   python query_chatbot.py
+   ```
+
+2. The program will open a GUI window within a few seconds, providing you with an interface to interact with the chatbot.
+
+3. Use the GUI to chat with the bot and ask any queries related to IIT Bhilai. The chatbot will process your questions and respond accordingly.
+
+## Note
+
+- The chatbot's performance is dependent on the training data and the queries it has been exposed to during training.It can only answer basic queries and queries redagring IIT Bhilai's basic facilities and admissions. Updating the data as and when required would improve its performance.
+- If you encounter any issues or errors while running the application, make sure all dependencies are installed correctly and the necessary files are present in the project folder.
+
+Enjoy interacting with the IIT Bhilai Query ChatBot and feel free to provide feedback to improve its performance!
