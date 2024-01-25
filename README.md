@@ -41,7 +41,7 @@ pip install nltk
 
 ## Note
 
-- The chatbot's performance is dependent on the training data and the queries it has been exposed to during training.It can only answer basic queries and queries redagring IIT Bhilai's basic facilities and admissions. Updating the data as and when required would improve its performance.
+- The chatbot's performance is dependent on the training data and the queries it has been exposed to during training.It can only answer basic queries and queries regarding IIT Bhilai's basic facilities and admissions. Updating the data as and when required would improve its performance.
 - If you encounter any issues or errors while running the application, make sure all dependencies are installed correctly and the necessary files are present in the project folder.
 
 ![Query ChatBot Demo](Screenrecording_chatbot.mp4)
